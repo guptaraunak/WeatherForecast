@@ -1,8 +1,8 @@
-package Service;
+package com.WeatherForecastProject.WeatherForecast.Service;
 
-import Dto.Current;
-import Dto.Forecast;
-import Dto.WeatherResponse;
+import com.WeatherForecastProject.WeatherForecast.Dto.Current;
+import com.WeatherForecastProject.WeatherForecast.Dto.Forecast;
+import com.WeatherForecastProject.WeatherForecast.Dto.WeatherResponse;
 import com.fasterxml.jackson.databind.JsonNode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;

@@ -1,8 +1,7 @@
-package Controller;
+package com.WeatherForecastProject.WeatherForecast.Controller;
 
-import Dto.WeatherResponse;
-import Service.WeatherForecastService;
-import com.WeatherForecastProject.WeatherForecast.WeatherForecastApplication;
+import com.WeatherForecastProject.WeatherForecast.Dto.WeatherResponse;
+import com.WeatherForecastProject.WeatherForecast.Service.WeatherForecastService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
